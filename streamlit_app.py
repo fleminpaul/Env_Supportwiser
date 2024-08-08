@@ -60,7 +60,7 @@ def get_chatResponse():
     
     # Send the request with JSON payload
     response = requests.post(
-        "http://localhost:8080/ask_pdf",
+        "http://3.131.4.178:8080/query",
         json=payload,
         headers={"content-type": "application/json"}
     )
